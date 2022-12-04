@@ -1,6 +1,6 @@
 import pytest
 import logging
-import inspect
+
 
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.select import Select
@@ -8,7 +8,7 @@ from selenium.webdriver.support.select import Select
 
 @pytest.mark.usefixtures("setup")
 class BaseClass:
-    def getLogger(self):
+
 
 
     def getActionMethod(self):
